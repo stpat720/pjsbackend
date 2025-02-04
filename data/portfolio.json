@@ -1,0 +1,39 @@
+[
+    {
+      "title": "LETT Courtyard Home",
+      "description": "Architectural Photography",
+      "image": "/static/images/Lett01.jpg",
+      "category": ["photography"]
+    },
+    {
+      "title": "Portable Easel",
+      "description": "Product Design, Fabrication, Product Photography",
+      "image": "/static/images/EaselPan1.jpg",
+      "category": ["design"]
+    },
+    {
+        "title": "Portable Easel",
+        "description": "Product Design, Fabrication, Product Photography",
+        "image": "/static/images/EaselPan2.jpg",
+        "category": ["design"]
+      },
+    {
+        "title": "GoCabn Render",
+        "description": "3D Architecture and environment visualization",
+        "image": "/static/images/GoCABN_02.jpg",
+        "category": ["3D_art"]
+      },
+    {
+      "title": "GoCabn Render",
+      "description": "3D Architecture and environment visualization",
+      "image": "/static/images/GoCABN_01.jpg",
+      "category": ["3D_art"]
+    },
+    {
+        "title": "PEI",
+        "description": "Landscape Photography",
+        "image": "/static/images/PEI01.jpg",
+        "category": ["photography"]
+      }
+  ]
+  
