@@ -22,8 +22,10 @@ def get_portfolio():
         # Convert only relative image paths to full URLs
         for item in root.findall('item'):
             image = item.find('image')
-            if image is not None and image.text.startswith("/static/"):
-                image.text = f"{BASE_URL}{image.text}"  # Corrected URL formatting
+            if image is not None:
+                # Ensure only relative paths are modified
+                if not image.text.startswith("http"):
+                    image.text = f"{BASE_URL}{image.text}"
 
         xml_str = ET.tostring(root, encoding="utf-8").decode()
         return Response(xml_str, mimetype="application/xml")
