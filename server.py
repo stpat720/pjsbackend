@@ -1,12 +1,10 @@
 import os
-from flask import Flask, Response
+from flask import Flask, Response, send_from_directory
 from flask_cors import CORS
 import xml.etree.ElementTree as ET
-import time
 
 app = Flask(__name__)
 CORS(app)
-
 
 BASE_URL = "https://pjsbackend.onrender.com"
 
@@ -21,18 +19,17 @@ def get_portfolio():
         tree = ET.parse("portfolio.xml")
         root = tree.getroot()
 
-        # Convert image paths to full URLs
+        # Convert only relative image paths to full URLs
         for item in root.findall('item'):
             image = item.find('image')
-            if image is not None:
-                image.text = f"{BASE_URL}{image.text}"
+            if image is not None and image.text.startswith("/static/"):
+                image.text = f"{BASE_URL}{image.text}"  # Corrected URL formatting
 
         xml_str = ET.tostring(root, encoding="utf-8").decode()
         return Response(xml_str, mimetype="application/xml")
 
     except Exception as e:
         return f"Error loading XML: {str(e)}", 500
-
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8000))  # Use Render's assigned port
