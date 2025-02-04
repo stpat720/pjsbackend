@@ -7,6 +7,9 @@ import time
 app = Flask(__name__)
 CORS(app)
 
+
+BASE_URL = "https://pjsbackend.onrender.com"
+
 # Serve images from the static folder
 @app.route('/static/<path:filename>')
 def serve_static(filename):
@@ -22,7 +25,7 @@ def get_portfolio():
         for item in root.findall('item'):
             image = item.find('image')
             if image is not None:
-                image.text = f"https://pjsbackend.onrender.com/api/portfolio{image.text}"
+                image.text = f{BASE_URL}{image.text}"
 
         xml_str = ET.tostring(root, encoding="utf-8").decode()
         return Response(xml_str, mimetype="application/xml")
