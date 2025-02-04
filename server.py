@@ -18,4 +18,5 @@ def get_portfolio():
         return f"Error loading XML: {str(e)}", 500
 
 if __name__ == "__main__":
-    app.run(debug=True, port=8000)
+    port = int(os.environ.get("PORT", 8000))  # Use Render's assigned port
+    app.run(host="0.0.0.0", port=port)
