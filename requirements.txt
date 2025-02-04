@@ -1,0 +1,5 @@
+flask
+flask-cors
+xml.etree.ElementTree
+gunicorn
+watchdog
