@@ -25,7 +25,7 @@ def get_portfolio():
         for item in root.findall('item'):
             image = item.find('image')
             if image is not None:
-                image.text = f{BASE_URL}{image.text}"
+                image.text = f"{BASE_URL}{image.text}"
 
         xml_str = ET.tostring(root, encoding="utf-8").decode()
         return Response(xml_str, mimetype="application/xml")
