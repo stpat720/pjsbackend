@@ -19,6 +19,12 @@ def get_portfolio():
         tree = ET.parse("portfolio.xml")
         root = tree.getroot()
 
+        # Convert only relative image paths to full URLs
+        for item in root.findall('item'):
+            image = item.find('image')
+            if image is not None and image.text.startswith("/static/"):
+                image.text = f"{BASE_URL}{image.text}"  # Corrected URL formatting
+
         xml_str = ET.tostring(root, encoding="utf-8").decode()
         return Response(xml_str, mimetype="application/xml")
 
