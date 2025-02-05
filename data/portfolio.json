@@ -2,38 +2,152 @@
     {
       "title": "LETT Courtyard Home",
       "description": "Architectural Photography",
-      "image": "/static/images/Lett01.jpg",
+      "image": "/static/images/Lett_Home.jpg",
       "category": ["photography"]
     },
     {
       "title": "Portable Easel",
       "description": "Product Design, Fabrication, Product Photography",
-      "image": "/static/images/EaselPan1.jpg",
+      "image": "/static/images/Easel_Panel1.jpg",
       "category": ["design"]
     },
     {
         "title": "Portable Easel",
         "description": "Product Design, Fabrication, Product Photography",
-        "image": "/static/images/EaselPan2.jpg",
+        "image": "/static/images/Easel_Panel2.jpg",
         "category": ["design"]
       },
     {
         "title": "GoCabn Render",
         "description": "3D Architecture and environment visualization",
-        "image": "/static/images/GoCABN_02.jpg",
+        "image": "/static/images/Cabn1.jpg",
         "category": ["3D_art"]
       },
     {
       "title": "GoCabn Render",
       "description": "3D Architecture and environment visualization",
-      "image": "/static/images/GoCABN_01.jpg",
+      "image": "/static/images/Cabn2.jpg",
       "category": ["3D_art"]
+    },
+    {
+        "title": "Kirkjufellsfoss",
+        "description": "Landscape Photography",
+        "image": "/static/images/Iceland1.jpg",
+        "category": ["photography"]
+    },
+    {
+        "title": "Iceland",
+        "description": "Landscape Photography",
+        "image": "/static/images/Iceland2.jpg",
+        "category": ["photography"]
+    },
+    {
+        "title": "Iceland",
+        "description": "Landscape Photography",
+        "image": "/static/images/Iceland3.jpg",
+        "category": ["photography"]
+    },
+    {
+        "title": "MacMillan Park",
+        "description": "Landscape Photography",
+        "image": "/static/images/Forest_car1.jpg",
+        "category": ["photography"]
+    },
+    {
+        "title": "Coastal Residence",
+        "description": "3D architectural interior visualization",
+        "image": "/static/images/Coastal_Residence2.jpg",
+        "category": ["3D_art"]
+    },
+    {
+        "title": "Coastal Residence",
+        "description": "3D architectural interior visualization",
+        "image": "/static/images/Coastal_Residence1.jpg",
+        "category": ["3D_art"]
+    },
+    {
+        "title": "Cambridge ON",
+        "description": "Landscape Photography 120mm Film BW",
+        "image": "/static/images/Park_Film4.jpg",
+        "category": ["photography"]
+    },
+    {
+        "title": "Lake Superior Park",
+        "description": "Landscape Photography",
+        "image": "/static/images/Superior1.jpg",
+        "category": ["photography"]
+    },
+    {
+        "title": "Hopewell Intervention",
+        "description": "Architectural steel design competition 3D visualization",
+        "image": "/static/images/Hopewell_Competition1.jpg",
+        "category": ["3D_art"]
+    },
+    {
+        "title": "Peggy's Cove",
+        "description": "Winter Landscape Photography",
+        "image": "/static/images/PeggysCove1.jpg",
+        "category": ["photography"]
+    },
+    {
+        "title": "Particle Breakdown",
+        "description": "3D Render, Personal exploration",
+        "image": "/static/images/Experiment1.jpg",
+        "category": ["3D_art"]
+    },
+    {
+        "title": "Life Cycles",
+        "description": "Experiential visual projection and sound installation",
+        "image": "/static/images/Experiment1.jpg",
+        "category": ["design"]
+    },
+    {
+        "title": "Ambient Permanence",
+        "description": "3D Render, Point cloud, Personal exploration",
+        "image": "/static/images/Experiment2.jpg",
+        "category": ["3D_art"]
+    },
+    {
+        "title": "Toronto",
+        "description": "Aerial urban photography",
+        "image": "/static/images/Aerial1.jpg",
+        "category": ["photography"]
+    },
+    {
+        "title": "On-The-Ground",
+        "description": "Urban photography, 35mm Film BW",
+        "image": "/static/images/Helicopter_Film3.jpg",
+        "category": ["photography"]
+    },
+    {
+        "title": "New York",
+        "description": "Urban photography",
+        "image": "/static/images/nyc1.jpg",
+        "category": ["photography"]
+    },
+    {
+        "title": "CN Tower",
+        "description": "Urban photography, 35mm Film BW",
+        "image": "/static/images/Toronto_Film2.jpg",
+        "category": ["photography"]
+    },
+    {
+        "title": "Jasper",
+        "description": "Landscape Photography",
+        "image": "/static/images/Jasper1.jpg",
+        "category": ["photography"]
+    },
+    {
+        "title": "Jasper",
+        "description": "Landscape Photography",
+        "image": "/static/images/Jasper2.jpg",
+        "category": ["photography"]
     },
     {
         "title": "PEI",
         "description": "Landscape Photography",
-        "image": "/static/images/PEI01.jpg",
+        "image": "/static/images/PEI1.jpg",
         "category": ["photography"]
-      }
+    }
   ]
   
